@@ -159,7 +159,7 @@
                                 <color key="textColor" red="0.96470588239999999" green="0.89411764709999997" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="BoZ-N5-67s" userLabel="LoginUserName">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="BoZ-N5-67s" userLabel="LoginUserName1">
                                 <rect key="frame" x="49" y="262" width="309" height="62"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Name/ Email account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7EH-wK-x7B">
@@ -1262,9 +1262,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="gr2-Yb-B7c"/>
+        <segue reference="qeC-dC-mAE"/>
         <segue reference="CAa-SU-PHg"/>
-        <segue reference="6Vx-DE-qJ4"/>
+        <segue reference="F65-cE-j8f"/>
         <segue reference="aAk-Jf-IGZ"/>
     </inferredMetricsTieBreakers>
     <resources>
