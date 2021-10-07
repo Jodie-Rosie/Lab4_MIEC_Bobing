@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC1BC957270D5823002E2682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BC956270D5823002E2682 /* AppDelegate.swift */; };
+		FC1BC959270D5823002E2682 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BC958270D5823002E2682 /* SceneDelegate.swift */; };
+		FC1BC95B270D5823002E2682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BC95A270D5823002E2682 /* ViewController.swift */; };
+		FC1BC95E270D5823002E2682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1BC95C270D5823002E2682 /* Main.storyboard */; };
+		FC1BC960270D5826002E2682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1BC95F270D5826002E2682 /* Assets.xcassets */; };
+		FC1BC963270D5826002E2682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1BC961270D5826002E2682 /* LaunchScreen.storyboard */; };
+		FC1BC96E270D5826002E2682 /* Lab4_Bobing_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BC96D270D5826002E2682 /* Lab4_Bobing_AppTests.swift */; };
+		FC1BC978270D5826002E2682 /* Lab4_Bobing_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BC977270D5826002E2682 /* Lab4_Bobing_AppUITests.swift */; };
+		FC1BC97A270D5826002E2682 /* Lab4_Bobing_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BC979270D5826002E2682 /* Lab4_Bobing_AppUITestsLaunchTests.swift */; };
+		FCACA25C270DDE68009FF985 /* LegendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCACA25B270DDE68009FF985 /* LegendViewController.swift */; };
+		FCACA25E270DDF22009FF985 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCACA25D270DDF22009FF985 /* ProfileViewController.swift */; };
+		FCACA260270DE0EF009FF985 /* RuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCACA25F270DE0EF009FF985 /* RuleViewController.swift */; };
+		FCC9868D270EDD240051D60A /* BobingINGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC9868C270EDD240051D60A /* BobingINGViewController.swift */; };
+		FCC9868F270EF69B0051D60A /* CreateGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC9868E270EF69B0051D60A /* CreateGroupViewController.swift */; };
+		FCC98691270EF9780051D60A /* JoinGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC98690270EF9780051D60A /* JoinGroupViewController.swift */; };
+		FCC98693270EFD9B0051D60A /* ProfileEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC98692270EFD9B0051D60A /* ProfileEditViewController.swift */; };
+		FCD0022C270DB5FA00896A6C /* LoginpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD0022B270DB5FA00896A6C /* LoginpageViewController.swift */; };
+		FCD0026C270DC96B00896A6C /* OtherloginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD0026B270DC96B00896A6C /* OtherloginViewController.swift */; };
+		FCD0026E270DCC3600896A6C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD0026D270DCC3600896A6C /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC1BC96A270D5826002E2682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1BC94B270D5823002E2682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC1BC952270D5823002E2682;
+			remoteInfo = Lab4_Bobing_App;
+		};
+		FC1BC974270D5826002E2682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1BC94B270D5823002E2682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC1BC952270D5823002E2682;
+			remoteInfo = Lab4_Bobing_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC1BC953270D5823002E2682 /* Lab4_Bobing_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab4_Bobing_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1BC956270D5823002E2682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC1BC958270D5823002E2682 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC1BC95A270D5823002E2682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC1BC95D270D5823002E2682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC1BC95F270D5826002E2682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC1BC962270D5826002E2682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC1BC964270D5826002E2682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC1BC969270D5826002E2682 /* Lab4_Bobing_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab4_Bobing_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1BC96D270D5826002E2682 /* Lab4_Bobing_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab4_Bobing_AppTests.swift; sourceTree = "<group>"; };
+		FC1BC973270D5826002E2682 /* Lab4_Bobing_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab4_Bobing_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1BC977270D5826002E2682 /* Lab4_Bobing_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab4_Bobing_AppUITests.swift; sourceTree = "<group>"; };
+		FC1BC979270D5826002E2682 /* Lab4_Bobing_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab4_Bobing_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCACA25B270DDE68009FF985 /* LegendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendViewController.swift; sourceTree = "<group>"; };
+		FCACA25D270DDF22009FF985 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FCACA25F270DE0EF009FF985 /* RuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleViewController.swift; sourceTree = "<group>"; };
+		FCC9868C270EDD240051D60A /* BobingINGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobingINGViewController.swift; sourceTree = "<group>"; };
+		FCC9868E270EF69B0051D60A /* CreateGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupViewController.swift; sourceTree = "<group>"; };
+		FCC98690270EF9780051D60A /* JoinGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinGroupViewController.swift; sourceTree = "<group>"; };
+		FCC98692270EFD9B0051D60A /* ProfileEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditViewController.swift; sourceTree = "<group>"; };
+		FCD0022B270DB5FA00896A6C /* LoginpageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginpageViewController.swift; sourceTree = "<group>"; };
+		FCD0026B270DC96B00896A6C /* OtherloginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherloginViewController.swift; sourceTree = "<group>"; };
+		FCD0026D270DCC3600896A6C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC1BC950270D5823002E2682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1BC966270D5826002E2682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1BC970270D5826002E2682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC1BC94A270D5823002E2682 = {
+			isa = PBXGroup;
+			children = (
+				FC1BC955270D5823002E2682 /* Lab4_Bobing_App */,
+				FC1BC96C270D5826002E2682 /* Lab4_Bobing_AppTests */,
+				FC1BC976270D5826002E2682 /* Lab4_Bobing_AppUITests */,
+				FC1BC954270D5823002E2682 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC1BC954270D5823002E2682 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC1BC953270D5823002E2682 /* Lab4_Bobing_App.app */,
+				FC1BC969270D5826002E2682 /* Lab4_Bobing_AppTests.xctest */,
+				FC1BC973270D5826002E2682 /* Lab4_Bobing_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC1BC955270D5823002E2682 /* Lab4_Bobing_App */ = {
+			isa = PBXGroup;
+			children = (
+				FC1BC956270D5823002E2682 /* AppDelegate.swift */,
+				FC1BC958270D5823002E2682 /* SceneDelegate.swift */,
+				FC1BC95A270D5823002E2682 /* ViewController.swift */,
+				FCD0022B270DB5FA00896A6C /* LoginpageViewController.swift */,
+				FCD0026B270DC96B00896A6C /* OtherloginViewController.swift */,
+				FCD0026D270DCC3600896A6C /* HomeViewController.swift */,
+				FCACA25B270DDE68009FF985 /* LegendViewController.swift */,
+				FCACA25D270DDF22009FF985 /* ProfileViewController.swift */,
+				FCC9868C270EDD240051D60A /* BobingINGViewController.swift */,
+				FCACA25F270DE0EF009FF985 /* RuleViewController.swift */,
+				FCC9868E270EF69B0051D60A /* CreateGroupViewController.swift */,
+				FCC98690270EF9780051D60A /* JoinGroupViewController.swift */,
+				FCC98692270EFD9B0051D60A /* ProfileEditViewController.swift */,
+				FC1BC95C270D5823002E2682 /* Main.storyboard */,
+				FC1BC95F270D5826002E2682 /* Assets.xcassets */,
+				FC1BC961270D5826002E2682 /* LaunchScreen.storyboard */,
+				FC1BC964270D5826002E2682 /* Info.plist */,
+			);
+			path = Lab4_Bobing_App;
+			sourceTree = "<group>";
+		};
+		FC1BC96C270D5826002E2682 /* Lab4_Bobing_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC1BC96D270D5826002E2682 /* Lab4_Bobing_AppTests.swift */,
+			);
+			path = Lab4_Bobing_AppTests;
+			sourceTree = "<group>";
+		};
+		FC1BC976270D5826002E2682 /* Lab4_Bobing_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC1BC977270D5826002E2682 /* Lab4_Bobing_AppUITests.swift */,
+				FC1BC979270D5826002E2682 /* Lab4_Bobing_AppUITestsLaunchTests.swift */,
+			);
+			path = Lab4_Bobing_AppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC1BC952270D5823002E2682 /* Lab4_Bobing_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1BC97D270D5826002E2682 /* Build configuration list for PBXNativeTarget "Lab4_Bobing_App" */;
+			buildPhases = (
+				FC1BC94F270D5823002E2682 /* Sources */,
+				FC1BC950270D5823002E2682 /* Frameworks */,
+				FC1BC951270D5823002E2682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab4_Bobing_App;
+			productName = Lab4_Bobing_App;
+			productReference = FC1BC953270D5823002E2682 /* Lab4_Bobing_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC1BC968270D5826002E2682 /* Lab4_Bobing_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1BC980270D5826002E2682 /* Build configuration list for PBXNativeTarget "Lab4_Bobing_AppTests" */;
+			buildPhases = (
+				FC1BC965270D5826002E2682 /* Sources */,
+				FC1BC966270D5826002E2682 /* Frameworks */,
+				FC1BC967270D5826002E2682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC1BC96B270D5826002E2682 /* PBXTargetDependency */,
+			);
+			name = Lab4_Bobing_AppTests;
+			productName = Lab4_Bobing_AppTests;
+			productReference = FC1BC969270D5826002E2682 /* Lab4_Bobing_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC1BC972270D5826002E2682 /* Lab4_Bobing_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1BC983270D5826002E2682 /* Build configuration list for PBXNativeTarget "Lab4_Bobing_AppUITests" */;
+			buildPhases = (
+				FC1BC96F270D5826002E2682 /* Sources */,
+				FC1BC970270D5826002E2682 /* Frameworks */,
+				FC1BC971270D5826002E2682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC1BC975270D5826002E2682 /* PBXTargetDependency */,
+			);
+			name = Lab4_Bobing_AppUITests;
+			productName = Lab4_Bobing_AppUITests;
+			productReference = FC1BC973270D5826002E2682 /* Lab4_Bobing_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC1BC94B270D5823002E2682 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					FC1BC952270D5823002E2682 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					FC1BC968270D5826002E2682 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = FC1BC952270D5823002E2682;
+					};
+					FC1BC972270D5826002E2682 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = FC1BC952270D5823002E2682;
+					};
+				};
+			};
+			buildConfigurationList = FC1BC94E270D5823002E2682 /* Build configuration list for PBXProject "Lab4_Bobing_App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC1BC94A270D5823002E2682;
+			productRefGroup = FC1BC954270D5823002E2682 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC1BC952270D5823002E2682 /* Lab4_Bobing_App */,
+				FC1BC968270D5826002E2682 /* Lab4_Bobing_AppTests */,
+				FC1BC972270D5826002E2682 /* Lab4_Bobing_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC1BC951270D5823002E2682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1BC963270D5826002E2682 /* LaunchScreen.storyboard in Resources */,
+				FC1BC960270D5826002E2682 /* Assets.xcassets in Resources */,
+				FC1BC95E270D5823002E2682 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1BC967270D5826002E2682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1BC971270D5826002E2682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC1BC94F270D5823002E2682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1BC95B270D5823002E2682 /* ViewController.swift in Sources */,
+				FCD0022C270DB5FA00896A6C /* LoginpageViewController.swift in Sources */,
+				FCACA260270DE0EF009FF985 /* RuleViewController.swift in Sources */,
+				FC1BC957270D5823002E2682 /* AppDelegate.swift in Sources */,
+				FCC98691270EF9780051D60A /* JoinGroupViewController.swift in Sources */,
+				FCC9868D270EDD240051D60A /* BobingINGViewController.swift in Sources */,
+				FC1BC959270D5823002E2682 /* SceneDelegate.swift in Sources */,
+				FCD0026C270DC96B00896A6C /* OtherloginViewController.swift in Sources */,
+				FCACA25C270DDE68009FF985 /* LegendViewController.swift in Sources */,
+				FCC9868F270EF69B0051D60A /* CreateGroupViewController.swift in Sources */,
+				FCACA25E270DDF22009FF985 /* ProfileViewController.swift in Sources */,
+				FCC98693270EFD9B0051D60A /* ProfileEditViewController.swift in Sources */,
+				FCD0026E270DCC3600896A6C /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1BC965270D5826002E2682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1BC96E270D5826002E2682 /* Lab4_Bobing_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1BC96F270D5826002E2682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1BC97A270D5826002E2682 /* Lab4_Bobing_AppUITestsLaunchTests.swift in Sources */,
+				FC1BC978270D5826002E2682 /* Lab4_Bobing_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC1BC96B270D5826002E2682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC1BC952270D5823002E2682 /* Lab4_Bobing_App */;
+			targetProxy = FC1BC96A270D5826002E2682 /* PBXContainerItemProxy */;
+		};
+		FC1BC975270D5826002E2682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC1BC952270D5823002E2682 /* Lab4_Bobing_App */;
+			targetProxy = FC1BC974270D5826002E2682 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC1BC95C270D5823002E2682 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC1BC95D270D5823002E2682 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC1BC961270D5826002E2682 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC1BC962270D5826002E2682 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC1BC97B270D5826002E2682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC1BC97C270D5826002E2682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC1BC97E270D5826002E2682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMFP2J3H97;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lab4_Bobing_App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jodie-Lin.Lab4-Bobing-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC1BC97F270D5826002E2682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMFP2J3H97;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lab4_Bobing_App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jodie-Lin.Lab4-Bobing-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC1BC981270D5826002E2682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMFP2J3H97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jodie-Lin.Lab4-Bobing-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab4_Bobing_App.app/Lab4_Bobing_App";
+			};
+			name = Debug;
+		};
+		FC1BC982270D5826002E2682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMFP2J3H97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jodie-Lin.Lab4-Bobing-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab4_Bobing_App.app/Lab4_Bobing_App";
+			};
+			name = Release;
+		};
+		FC1BC984270D5826002E2682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMFP2J3H97;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jodie-Lin.Lab4-Bobing-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lab4_Bobing_App;
+			};
+			name = Debug;
+		};
+		FC1BC985270D5826002E2682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMFP2J3H97;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jodie-Lin.Lab4-Bobing-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lab4_Bobing_App;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC1BC94E270D5823002E2682 /* Build configuration list for PBXProject "Lab4_Bobing_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1BC97B270D5826002E2682 /* Debug */,
+				FC1BC97C270D5826002E2682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC1BC97D270D5826002E2682 /* Build configuration list for PBXNativeTarget "Lab4_Bobing_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1BC97E270D5826002E2682 /* Debug */,
+				FC1BC97F270D5826002E2682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC1BC980270D5826002E2682 /* Build configuration list for PBXNativeTarget "Lab4_Bobing_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1BC981270D5826002E2682 /* Debug */,
+				FC1BC982270D5826002E2682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC1BC983270D5826002E2682 /* Build configuration list for PBXNativeTarget "Lab4_Bobing_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1BC984270D5826002E2682 /* Debug */,
+				FC1BC985270D5826002E2682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC1BC94B270D5823002E2682 /* Project object */;
+}
