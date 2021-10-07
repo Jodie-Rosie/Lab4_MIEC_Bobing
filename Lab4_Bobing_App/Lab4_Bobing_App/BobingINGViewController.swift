@@ -80,7 +80,9 @@ class BobingINGViewController: UIViewController {
                 Count_6 = Count_6 + 1
             }
         }
-        if (Count_1 == Equal_2 && Count_4 == Equal_4){
+        
+        if Count_1 == Equal_2 && Count_4 == Equal_4
+        {
             Resultshowlbl.text = "Zhuangyuan"
             Zhuangyuanlbl.text = "Gold Flower"
             Count_1 = 0
@@ -90,7 +92,8 @@ class BobingINGViewController: UIViewController {
             Count_5 = 0
             Count_6 = 0
         }
-        if (Count_4 == Equal_6){
+        else if Count_4 == Equal_6
+        {
             Resultshowlbl.text = "Zhuangyuan"
             Zhuangyuanlbl.text = "Six Cup of Red"
             Count_1 = 0
@@ -100,7 +103,8 @@ class BobingINGViewController: UIViewController {
             Count_5 = 0
             Count_6 = 0
         }
-        if (Count_6 == Equal_6){
+        else if Count_6 == Equal_6
+        {
             Resultshowlbl.text = "Zhuangyuan"
             Zhuangyuanlbl.text = "Six Cups of Black"
             Count_1 = 0
@@ -110,7 +114,8 @@ class BobingINGViewController: UIViewController {
             Count_5 = 0
             Count_6 = 0
         }
-        if (Count_4 == Equal_5){
+        else if Count_4 == Equal_5
+        {
             Resultshowlbl.text = "Zhuangyuan with Five Red"
             Zhuangyuanlbl.text = "  "
             Count_1 = 0
@@ -120,7 +125,8 @@ class BobingINGViewController: UIViewController {
             Count_5 = 0
             Count_6 = 0
         }
-        if (Count_3 == Equal_5){
+        else if Count_3 == Equal_5
+        {
             Resultshowlbl.text = "Zhuangyuan with WuZiDengKe"
             Zhuangyuanlbl.text = "  "
             Count_1 = 0
@@ -130,7 +136,8 @@ class BobingINGViewController: UIViewController {
             Count_5 = 0
             Count_6 = 0
         }
-        if (Count_4 == Equal_4){
+        else if Count_4 == Equal_4
+        {
             Resultshowlbl.text = "Zhuangyuan with Four Points"
             Zhuangyuanlbl.text = "  "
             Count_1 = 0
@@ -140,7 +147,8 @@ class BobingINGViewController: UIViewController {
             Count_5 = 0
             Count_6 = 0
         }
-        if (Count_1 == Equal_1 && Count_2 == Equal_1 && Count_3 == Equal_1 && Count_4 == Equal_1 && Count_5 == Equal_1 ){
+        else if Count_1 == Equal_1 && Count_2 == Equal_1 && Count_3 == Equal_1 && Count_4 == Equal_1 && Count_5 == Equal_1
+        {
             Resultshowlbl.text = "Dui Tang"
             Zhuangyuanlbl.text = "  "
             Count_1 = 0
@@ -150,7 +158,8 @@ class BobingINGViewController: UIViewController {
             Count_5 = 0
             Count_6 = 0
         }
-        if (Count_4 == Equal_3){
+        else if Count_4 == Equal_3
+        {
             Resultshowlbl.text = "Three Red"
             Zhuangyuanlbl.text = "  "
             Count_1 = 0
@@ -160,7 +169,8 @@ class BobingINGViewController: UIViewController {
             Count_5 = 0
             Count_6 = 0
         }
-        if (Count_2 == Equal_4){
+        else if Count_2 == Equal_4
+        {
             Resultshowlbl.text = "Four Jin"
             Zhuangyuanlbl.text = "  "
             Count_1 = 0
@@ -170,7 +180,8 @@ class BobingINGViewController: UIViewController {
             Count_5 = 0
             Count_6 = 0
         }
-        if (Count_4 == Equal_2 && Count_2 != Equal_4){
+        else if Count_4 == Equal_2 && Count_2 != Equal_4
+        {
             Resultshowlbl.text = "Two Ju"
             Zhuangyuanlbl.text = "  "
             Count_1 = 0
@@ -180,7 +191,8 @@ class BobingINGViewController: UIViewController {
             Count_5 = 0
             Count_6 = 0
         }
-        if (Count_4 == Equal_1){
+        else if Count_4 == Equal_1
+        {
             Resultshowlbl.text = "One Xiu"
             Zhuangyuanlbl.text = "  "
             Count_1 = 0
@@ -193,6 +205,12 @@ class BobingINGViewController: UIViewController {
         else{
             Resultshowlbl.text = "Thanks"
             Zhuangyuanlbl.text = "  "
+            Count_1 = 0
+            Count_2 = 0
+            Count_3 = 0
+            Count_4 = 0
+            Count_5 = 0
+            Count_6 = 0
         }
         ResultList = [UInt32]()
         Diceimage1.image = UIImage(named: "Dice\(DiceNumber1)")
