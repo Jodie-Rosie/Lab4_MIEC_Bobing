@@ -21,6 +21,8 @@ var equal_4:UInt32 = 4
 var equal_3:UInt32 = 3
 var equal_2:UInt32 = 2
 var equal_1:UInt32 = 1
+var times:UInt32 = 0
+
 
 class IndividualViewController: UIViewController {
     @IBOutlet weak var Zhuangyuanlbl: UILabel!
@@ -39,6 +41,7 @@ class IndividualViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
     
     @IBAction func Rollnowbtn(_ sender: Any) {
         let DiceNumber1 = arc4random_uniform(6) + 1
@@ -76,6 +79,7 @@ class IndividualViewController: UIViewController {
         
         if count_1 == equal_2 && count_4 == equal_4
         {
+            times = times + 1
             Resultshowlbl.text = "Zhuangyuan"
             Zhuangyuanlbl.text = "Gold Flower"
             count_1 = 0
@@ -87,6 +91,7 @@ class IndividualViewController: UIViewController {
         }
         else if count_4 == equal_6
         {
+            times = times + 1
             Resultshowlbl.text = "Zhuangyuan"
             Zhuangyuanlbl.text = "Six Cup of Red"
             count_1 = 0
@@ -98,6 +103,7 @@ class IndividualViewController: UIViewController {
         }
         else if count_6 == equal_6
         {
+            times = times + 1
             Resultshowlbl.text = "Zhuangyuan"
             Zhuangyuanlbl.text = "Six Cups of Black"
             count_1 = 0
@@ -109,6 +115,7 @@ class IndividualViewController: UIViewController {
         }
         else if count_4 == equal_5
         {
+            times = times + 1
             Resultshowlbl.text = "Zhuangyuan with Five Red"
             Zhuangyuanlbl.text = "  "
             count_1 = 0
@@ -120,6 +127,7 @@ class IndividualViewController: UIViewController {
         }
         else if count_3 == equal_5
         {
+            times = times + 1
             Resultshowlbl.text = "Zhuangyuan with WuZiDengKe"
             Zhuangyuanlbl.text = "  "
             count_1 = 0
@@ -131,6 +139,7 @@ class IndividualViewController: UIViewController {
         }
         else if count_4 == equal_4
         {
+            times = times + 1
             Resultshowlbl.text = "Zhuangyuan with Four Points"
             Zhuangyuanlbl.text = "  "
             count_1 = 0
@@ -142,6 +151,7 @@ class IndividualViewController: UIViewController {
         }
         else if count_1 == equal_1 && count_2 == equal_1 && count_3 == equal_1 && count_4 == equal_1 && count_5 == equal_1
         {
+            times = times + 1
             Resultshowlbl.text = "Dui Tang"
             Zhuangyuanlbl.text = "  "
             count_1 = 0
@@ -153,6 +163,7 @@ class IndividualViewController: UIViewController {
         }
         else if count_4 == equal_3
         {
+            times = times + 1
             Resultshowlbl.text = "Three Red"
             Zhuangyuanlbl.text = "  "
             count_1 = 0
@@ -164,6 +175,7 @@ class IndividualViewController: UIViewController {
         }
         else if count_2 == equal_4
         {
+            times = times + 1
             Resultshowlbl.text = "Four Jin"
             Zhuangyuanlbl.text = "  "
             count_1 = 0
@@ -175,6 +187,7 @@ class IndividualViewController: UIViewController {
         }
         else if count_4 == equal_2 && count_2 != equal_4
         {
+            times = times + 1
             Resultshowlbl.text = "Two Ju"
             Zhuangyuanlbl.text = "  "
             count_1 = 0
@@ -186,6 +199,7 @@ class IndividualViewController: UIViewController {
         }
         else if count_4 == equal_1
         {
+            times = times + 1
             Resultshowlbl.text = "One Xiu"
             Zhuangyuanlbl.text = "  "
             count_1 = 0
@@ -196,6 +210,7 @@ class IndividualViewController: UIViewController {
             count_6 = 0
         }
         else{
+            times = times + 1
             Resultshowlbl.text = "Thanks"
             Zhuangyuanlbl.text = "  "
             count_1 = 0
@@ -205,6 +220,7 @@ class IndividualViewController: UIViewController {
             count_5 = 0
             count_6 = 0
         }
+        
         Result = [UInt32]()
         Diceimage1.image = UIImage(named: "Dice\(DiceNumber1)")
         Diceimage2.image = UIImage(named: "Dice\(DiceNumber2)")
@@ -214,9 +230,11 @@ class IndividualViewController: UIViewController {
         Diceimage6.image = UIImage(named: "Dice\(DiceNumber6)")
         
     }
+    
 
     @IBAction func BeforeHome(_ sender: Any) {
         self.performSegue(withIdentifier:"Individualtohome", sender: self)
+        
     }
     /*
     // MARK: - Navigation
