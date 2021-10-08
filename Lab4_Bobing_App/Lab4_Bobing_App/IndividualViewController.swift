@@ -231,10 +231,16 @@ class IndividualViewController: UIViewController {
         
     }
     
+    
+    
 
     @IBAction func BeforeHome(_ sender: Any) {
         self.performSegue(withIdentifier:"Individualtohome", sender: self)
         
+    }
+    
+    @IBAction func Resultlist(_ sender: Any) {
+        self.performSegue(withIdentifier:"INtoResult", sender: self)
     }
     /*
     // MARK: - Navigation

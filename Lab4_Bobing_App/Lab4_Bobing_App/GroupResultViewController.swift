@@ -1,16 +1,16 @@
 //
-//  INResultList.swift
+//  GroupResultViewController.swift
 //  Lab4_Bobing_App
 //
-//  Created by Rosie on 2021/10/8.
+//  Created by Rosie on 2021/10/9.
 //
 
 import UIKit
 
-class INResultListViewController: UIViewController {
-    
-    @IBAction func BeforeHome(_ sender: Any) {
-        self.performSegue(withIdentifier:"ResulttoIN", sender: self)
+class GroupResultViewController: UIViewController {
+
+    @IBAction func Return(_ sender: Any) {
+        self.performSegue(withIdentifier:"ResulttoGR", sender: self)
     }
     
     /*
@@ -23,5 +23,4 @@ class INResultListViewController: UIViewController {
     }
     */
 
-    
 }

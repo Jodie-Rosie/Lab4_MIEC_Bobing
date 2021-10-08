@@ -223,11 +223,15 @@ class BobingINGViewController: UIViewController {
     }
     
     @IBAction func RuleINGbtn(_ sender: Any) {
-        self.performSegue(withIdentifier:"toruleING", sender: self)
+        self.performSegue(withIdentifier:"GRtoRules", sender: self)
     }
     
     @IBAction func BeforeHome(_ sender: Any) {
         self.performSegue(withIdentifier:"INGtohome", sender: self)
+    }
+    
+    @IBAction func Resultlist(_ sender: Any) {
+        self.performSegue(withIdentifier:"GRtoResult", sender: self)
     }
     /*
     // MARK: - Navigation
