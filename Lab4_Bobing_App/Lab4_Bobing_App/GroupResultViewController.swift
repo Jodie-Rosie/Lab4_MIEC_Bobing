@@ -8,7 +8,8 @@
 import UIKit
 
 class GroupResultViewController: UIViewController {
-
+    @IBOutlet weak var backtoGRbtn : UIButton!
+    
     @IBAction func Return(_ sender: Any) {
         self.performSegue(withIdentifier:"ResulttoGR", sender: self)
     }
