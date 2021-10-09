@@ -21,6 +21,8 @@ var Equal_4:UInt32 = 4
 var Equal_3:UInt32 = 3
 var Equal_2:UInt32 = 2
 var Equal_1:UInt32 = 1
+var Gname:String = String()
+
 
 class BobingINGViewController: UIViewController {
 
@@ -41,10 +43,24 @@ class BobingINGViewController: UIViewController {
     @IBOutlet weak var Diceimage3: UIImageView!
     @IBOutlet weak var Diceimage2: UIImageView!
     @IBOutlet weak var Diceimage1: UIImageView!
+    
+    var Gname:String = String()
+
+    let empty: String = String("Unnamed")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        if Gname == ""
+        {
+            self.Groupnamelbl.text = empty
+        }
+        else{
+            self.Groupnamelbl.text = Gname
+
+        }
     }
     
     @IBAction func Rollnowbtn(_ sender: Any) {
