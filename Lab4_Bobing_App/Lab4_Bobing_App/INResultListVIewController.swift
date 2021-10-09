@@ -9,6 +9,8 @@ import UIKit
 
 class INResultListViewController: UIViewController {
     
+    @IBOutlet weak var Beforebtn : UIButton!
+    
     @IBAction func BeforeHome(_ sender: Any) {
         self.performSegue(withIdentifier:"ResulttoIN", sender: self)
     }

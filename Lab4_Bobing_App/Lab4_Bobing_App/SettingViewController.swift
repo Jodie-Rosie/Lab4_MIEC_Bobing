@@ -7,6 +7,29 @@
 
 import UIKit
 
-class SettingViewController: UIViewController {
+class SettingViewController：: UIViewController {
+    @IBOutlet weak var Logoutbtn : UIButton!
+    @IBOutlet weak var Beforebtn : UIButton!
+    @IBOutlet weak var Notificationlbl : UILabel!
+    @IBOutlet weak var Mybobinglbl : UILabel!
+    @IBOutlet weak var Attendedlbl : UILabel!
+    @IBOutlet weak var contactlbl : UILabel!
+    @IBOutlet weak var facebooklbl : UILabel!
+    @IBOutlet weak var Twitterlbl : UILabel!
+    @IBOutlet weak var Gmaillbl : UILabel!
+    @IBOutlet weak var Wechatlbl : UILabel!
+    @IBOutlet weak var userimagelbl : UIButton!
+    
+    @IBAction func BeforeHome(_ sender: Any) {
+        self.performSegue(withIdentifier:"backtoView", sender: self)
+    }
+    
+    @IBAction func toprofile(_ sender: Any) {
+        self.performSegue(withIdentifier:"settingtopro", sender: self)
+    }
+    
+    @IBAction func tologin(_ sender: Any) {
+        self.performSegue(withIdentifier:"settingtologin", sender: self)
+    }
     
 }
