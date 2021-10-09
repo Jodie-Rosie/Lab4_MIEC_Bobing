@@ -32,14 +32,28 @@ class ProfileEditViewController: UIViewController {
     @IBAction func Beforeprofile(_ sender: Any) {
         self.performSegue(withIdentifier:"toprofile", sender: self)
     }
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.destination is ProfileViewController
+        {
+            let VC = segue.destination as? ProfileViewController
+                    
+            VC?.Location = self.Locationlbl.text!
+            VC?.Email = self.Emaillbl.text!
+            VC?.Company = self.Grouplbl.text!
+            VC?.Birthday = self.Birthdaylbl.text!
+            VC?.Gender = self.Genderlbl.text!
+            VC?.UserID = self.IDlbl.text!
+            VC?.Username = self.Namelbl.text!
+        }
+                
+        
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
-    */
+    
 
 }

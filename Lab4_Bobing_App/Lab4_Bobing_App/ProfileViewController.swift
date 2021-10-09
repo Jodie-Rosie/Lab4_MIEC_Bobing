@@ -21,10 +21,84 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var Profilebackground: UIImageView!
     @IBOutlet weak var Editprofilebtn: UIButton!
     @IBOutlet weak var Beforebtn: UIButton!
+    
+    var Location : String = String()
+    var Email : String = String()
+    var Company : String = String()
+    var Birthday : String = String()
+    var Gender : String = String()
+    var UserID : String = String()
+    var Username : String = String()
+        
+    let empty: String = String("Enter")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        if Location == ""
+        {
+            self.Locationlbl.text = empty
+        }
+        else{
+            self.Locationlbl.text = Location
+
+        }
+        
+        if Email == ""
+        {
+            self.Emaillbl.text = empty
+        }
+        else{
+            self.Emaillbl.text = Email
+
+        }
+        
+        if Company == ""
+        {
+            self.Companylbl.text = empty
+        }
+        else{
+            self.Companylbl.text = Company
+
+        }
+        
+        if Birthday == ""
+        {
+            self.Birthdaylbl.text = empty
+        }
+        else{
+            self.Birthdaylbl.text = Birthday
+
+        }
+        
+        if Gender == ""
+        {
+            self.Genderlbl.text = empty
+        }
+        else{
+            self.Genderlbl.text = Gender
+
+        }
+        
+        if UserID == ""
+        {
+            self.IDlbl.text = empty
+        }
+        else{
+            self.IDlbl.text = UserID
+
+        }
+        
+        if Username == ""
+        {
+            self.Usernamelbl.text = empty
+        }
+        else{
+            self.Usernamelbl.text = Username
+
+        }
+        
     }
     
     @IBAction func Beforebtn(_ sender: Any) {
