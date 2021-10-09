@@ -567,6 +567,220 @@
             </objects>
             <point key="canvasLocation" x="3764" y="98"/>
         </scene>
+        <!--Group Result View Controller-->
+        <scene sceneID="vyd-Bc-rIK">
+            <objects>
+                <viewController id="T0n-YU-WZW" customClass="GroupResultViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a2n-PG-eIF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Result List page" translatesAutoresizingMaskIntoConstraints="NO" id="NP6-Oq-TnN">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M0s-yv-Wko">
+                                <rect key="frame" x="45" y="745" width="325" height="43"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Round10: One Xiu" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" white="1" alpha="0.59118510869999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="strokeColor" red="0.1680037975" green="0.2548166811" blue="0.46669214959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
+                                    <color key="baseForegroundColor" red="0.21335491540000001" green="0.26427221299999998" blue="0.40786260369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4hh-9g-RZ4">
+                                <rect key="frame" x="45" y="678" width="325" height="43"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Round9: Four JIn" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" white="1" alpha="0.59118510869999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="strokeColor" red="0.1680037975" green="0.2548166811" blue="0.46669214959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
+                                    <color key="baseForegroundColor" red="0.21335491540000001" green="0.26427221299999998" blue="0.40786260369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="APH-Jd-18g">
+                                <rect key="frame" x="45" y="613" width="325" height="43"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Round8 : Thanks" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" white="1" alpha="0.59118510869999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="strokeColor" red="0.1680037975" green="0.2548166811" blue="0.46669214959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
+                                    <color key="baseForegroundColor" red="0.21335491540000001" green="0.26427221299999998" blue="0.40786260369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="isx-MA-V5s">
+                                <rect key="frame" x="45" y="547" width="325" height="43"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Round7 : Three red" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" white="1" alpha="0.59118510869999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="strokeColor" red="0.1680037975" green="0.2548166811" blue="0.46669214959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
+                                    <color key="baseForegroundColor" red="0.21335491540000001" green="0.26427221299999998" blue="0.40786260369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yFR-rv-ljo">
+                                <rect key="frame" x="45" y="481" width="325" height="43"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Round6 : One Xiu" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" white="1" alpha="0.59118510869999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="strokeColor" red="0.1680037975" green="0.2548166811" blue="0.46669214959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
+                                    <color key="baseForegroundColor" red="0.21335491540000001" green="0.26427221299999998" blue="0.40786260369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qr7-rf-bEY">
+                                <rect key="frame" x="45" y="415" width="325" height="43"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Round5 : Two Ju" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" white="1" alpha="0.59118510869999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="strokeColor" red="0.1680037975" green="0.2548166811" blue="0.46669214959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
+                                    <color key="baseForegroundColor" red="0.21335491540000001" green="0.26427221299999998" blue="0.40786260369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xEO-ev-6SN">
+                                <rect key="frame" x="45" y="349" width="325" height="43"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Round4 : Thanks" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" white="1" alpha="0.59118510869999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="strokeColor" red="0.1680037975" green="0.2548166811" blue="0.46669214959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
+                                    <color key="baseForegroundColor" red="0.21335491540000001" green="0.26427221299999998" blue="0.40786260369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BCv-Qb-znI">
+                                <rect key="frame" x="45" y="217" width="325" height="43"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Round2 : One Xiu" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" white="1" alpha="0.59118510869999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="strokeColor" red="0.1680037975" green="0.2548166811" blue="0.46669214959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
+                                    <color key="baseForegroundColor" red="0.21335491540000001" green="0.26427221299999998" blue="0.40786260369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tYX-d4-FmZ">
+                                <rect key="frame" x="45" y="283" width="325" height="43"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Round3 : Thanks" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" white="1" alpha="0.59118510869999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="strokeColor" red="0.1680037975" green="0.2548166811" blue="0.46669214959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
+                                    <color key="baseForegroundColor" red="0.21335491540000001" green="0.26427221299999998" blue="0.40786260369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="veh-25-y7Z">
+                                <rect key="frame" x="45" y="152" width="325" height="43"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Round1 : One Xiu" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" white="1" alpha="0.59118510869999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="strokeColor" red="0.1680037975" green="0.2548166811" blue="0.46669214959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
+                                    <color key="baseForegroundColor" red="0.21335491540000001" green="0.26427221299999998" blue="0.40786260369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lfd-YY-FLs" userLabel="Beforebtn">
+                                <rect key="frame" x="-26" y="-50" width="126" height="132"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="befor icon" title=""/>
+                                <connections>
+                                    <action selector="BeforeHome:" destination="T0n-YU-WZW" eventType="touchUpInside" id="3tJ-Ya-kSy"/>
+                                    <action selector="BeforeHome:" destination="rct-Tz-EdQ" eventType="touchUpInside" id="7bw-wl-08E"/>
+                                    <action selector="BeforeHome:" destination="lGp-ET-svc" eventType="touchUpInside" id="zo5-r4-mKB"/>
+                                    <action selector="Beforebtn:" destination="dBB-gw-ZH3" eventType="touchUpInside" id="jDk-Ob-Y5c"/>
+                                    <action selector="Return:" destination="T0n-YU-WZW" eventType="touchUpInside" id="avn-3Z-2QL"/>
+                                    <segue destination="Dhu-je-HBZ" kind="modal" identifier="ResulttoGR" modalPresentationStyle="fullScreen" id="4UD-2c-2ge"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Lj-YD-zj5">
+                                <rect key="frame" x="45" y="809" width="325" height="43"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Round11: Two Ju" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" white="1" alpha="0.59118510869999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="strokeColor" red="0.1680037975" green="0.2548166811" blue="0.46669214959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
+                                    <color key="baseForegroundColor" red="0.21335491540000001" green="0.26427221299999998" blue="0.40786260369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Cfu-YD-JWI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Cfu-YD-JWI" firstAttribute="trailing" secondItem="yFR-rv-ljo" secondAttribute="trailing" constant="44" id="1zW-75-fkY"/>
+                            <constraint firstItem="Cfu-YD-JWI" firstAttribute="trailing" secondItem="4hh-9g-RZ4" secondAttribute="trailing" constant="44" id="2rB-15-egc"/>
+                            <constraint firstItem="BCv-Qb-znI" firstAttribute="leading" secondItem="Cfu-YD-JWI" secondAttribute="leading" constant="45" id="5kF-Qa-TKO"/>
+                            <constraint firstItem="Cfu-YD-JWI" firstAttribute="bottom" secondItem="isx-MA-V5s" secondAttribute="bottom" constant="272" id="68X-hW-RcF"/>
+                            <constraint firstItem="Lfd-YY-FLs" firstAttribute="leading" secondItem="a2n-PG-eIF" secondAttribute="leading" constant="-26" id="7Em-ll-r1G"/>
+                            <constraint firstItem="M0s-yv-Wko" firstAttribute="top" secondItem="4hh-9g-RZ4" secondAttribute="bottom" constant="24" id="8Yt-2c-88N"/>
+                            <constraint firstItem="tYX-d4-FmZ" firstAttribute="top" secondItem="BCv-Qb-znI" secondAttribute="bottom" constant="23" id="9gY-4x-lVw"/>
+                            <constraint firstItem="Cfu-YD-JWI" firstAttribute="trailing" secondItem="APH-Jd-18g" secondAttribute="trailing" constant="44" id="Bj1-u5-7ec"/>
+                            <constraint firstItem="Cfu-YD-JWI" firstAttribute="trailing" secondItem="M0s-yv-Wko" secondAttribute="trailing" constant="44" id="Do7-8s-RmM"/>
+                            <constraint firstItem="isx-MA-V5s" firstAttribute="top" secondItem="yFR-rv-ljo" secondAttribute="bottom" constant="23" id="K47-Yg-hR6"/>
+                            <constraint firstItem="BCv-Qb-znI" firstAttribute="top" secondItem="veh-25-y7Z" secondAttribute="bottom" constant="22" id="NAL-Oi-Xye"/>
+                            <constraint firstItem="xEO-ev-6SN" firstAttribute="top" secondItem="tYX-d4-FmZ" secondAttribute="bottom" constant="23" id="NQy-ny-JJE"/>
+                            <constraint firstItem="APH-Jd-18g" firstAttribute="leading" secondItem="Cfu-YD-JWI" secondAttribute="leading" constant="45" id="PZ3-cz-vig"/>
+                            <constraint firstItem="Qr7-rf-bEY" firstAttribute="leading" secondItem="Cfu-YD-JWI" secondAttribute="leading" constant="45" id="Qjm-T3-wND"/>
+                            <constraint firstItem="Cfu-YD-JWI" firstAttribute="bottom" secondItem="M0s-yv-Wko" secondAttribute="bottom" constant="74" id="RMJ-5Y-1gG"/>
+                            <constraint firstItem="Cfu-YD-JWI" firstAttribute="bottom" secondItem="yFR-rv-ljo" secondAttribute="bottom" constant="338" id="Th5-4Z-RRH"/>
+                            <constraint firstItem="BCv-Qb-znI" firstAttribute="top" secondItem="veh-25-y7Z" secondAttribute="bottom" constant="22" id="WDS-QI-BXv"/>
+                            <constraint firstItem="Cfu-YD-JWI" firstAttribute="trailing" secondItem="Qr7-rf-bEY" secondAttribute="trailing" constant="44" id="WJC-YP-fw1"/>
+                            <constraint firstItem="Cfu-YD-JWI" firstAttribute="bottom" secondItem="2Lj-YD-zj5" secondAttribute="bottom" constant="10" id="WNH-hL-8hC"/>
+                            <constraint firstItem="Cfu-YD-JWI" firstAttribute="bottom" secondItem="APH-Jd-18g" secondAttribute="bottom" constant="206" id="XT5-XG-P8L"/>
+                            <constraint firstItem="4hh-9g-RZ4" firstAttribute="leading" secondItem="Cfu-YD-JWI" secondAttribute="leading" constant="45" id="Xpp-hq-ywe"/>
+                            <constraint firstItem="Cfu-YD-JWI" firstAttribute="trailing" secondItem="BCv-Qb-znI" secondAttribute="trailing" constant="44" id="XrD-gP-2Tg"/>
+                            <constraint firstItem="xEO-ev-6SN" firstAttribute="top" secondItem="tYX-d4-FmZ" secondAttribute="bottom" constant="23" id="Y66-a6-mPU"/>
+                            <constraint firstItem="xEO-ev-6SN" firstAttribute="leading" secondItem="Cfu-YD-JWI" secondAttribute="leading" constant="45" id="Yvk-T0-7x9"/>
+                            <constraint firstItem="yFR-rv-ljo" firstAttribute="leading" secondItem="Cfu-YD-JWI" secondAttribute="leading" constant="45" id="bjg-JB-vYl"/>
+                            <constraint firstItem="Cfu-YD-JWI" firstAttribute="trailing" secondItem="xEO-ev-6SN" secondAttribute="trailing" constant="44" id="cNR-fm-HWG"/>
+                            <constraint firstItem="veh-25-y7Z" firstAttribute="top" secondItem="Lfd-YY-FLs" secondAttribute="bottom" constant="70" id="csM-7G-Crk"/>
+                            <constraint firstItem="Qr7-rf-bEY" firstAttribute="top" secondItem="xEO-ev-6SN" secondAttribute="bottom" constant="23" id="eNO-3n-raH"/>
+                            <constraint firstItem="2Lj-YD-zj5" firstAttribute="top" secondItem="M0s-yv-Wko" secondAttribute="bottom" constant="21" id="gme-Gv-J79"/>
+                            <constraint firstItem="yFR-rv-ljo" firstAttribute="top" secondItem="Qr7-rf-bEY" secondAttribute="bottom" constant="23" id="h48-da-5fn"/>
+                            <constraint firstItem="veh-25-y7Z" firstAttribute="leading" secondItem="Cfu-YD-JWI" secondAttribute="leading" constant="45" id="hnE-zY-2wI"/>
+                            <constraint firstItem="Cfu-YD-JWI" firstAttribute="trailing" secondItem="2Lj-YD-zj5" secondAttribute="trailing" constant="44" id="iGX-4u-yF0"/>
+                            <constraint firstItem="yFR-rv-ljo" firstAttribute="top" secondItem="Qr7-rf-bEY" secondAttribute="bottom" constant="23" id="izn-rE-B5R"/>
+                            <constraint firstItem="tYX-d4-FmZ" firstAttribute="leading" secondItem="Cfu-YD-JWI" secondAttribute="leading" constant="45" id="kRk-9q-ESY"/>
+                            <constraint firstItem="Cfu-YD-JWI" firstAttribute="trailing" secondItem="veh-25-y7Z" secondAttribute="trailing" constant="44" id="lRh-es-pDI"/>
+                            <constraint firstItem="M0s-yv-Wko" firstAttribute="top" secondItem="4hh-9g-RZ4" secondAttribute="bottom" constant="24" id="lZp-iL-gHA"/>
+                            <constraint firstItem="APH-Jd-18g" firstAttribute="top" secondItem="isx-MA-V5s" secondAttribute="bottom" constant="23" id="nQW-XQ-k56"/>
+                            <constraint firstItem="Cfu-YD-JWI" firstAttribute="trailing" secondItem="tYX-d4-FmZ" secondAttribute="trailing" constant="44" id="rgC-Fg-Sud"/>
+                            <constraint firstItem="Cfu-YD-JWI" firstAttribute="trailing" secondItem="isx-MA-V5s" secondAttribute="trailing" constant="44" id="sHx-dR-wD0"/>
+                            <constraint firstItem="2Lj-YD-zj5" firstAttribute="leading" secondItem="Cfu-YD-JWI" secondAttribute="leading" constant="45" id="u4e-Id-Mwg"/>
+                            <constraint firstItem="isx-MA-V5s" firstAttribute="leading" secondItem="Cfu-YD-JWI" secondAttribute="leading" constant="45" id="uRe-2K-9Ql"/>
+                            <constraint firstItem="tYX-d4-FmZ" firstAttribute="top" secondItem="BCv-Qb-znI" secondAttribute="bottom" constant="23" id="vIt-EQ-4UP"/>
+                            <constraint firstItem="Cfu-YD-JWI" firstAttribute="trailing" secondItem="Lfd-YY-FLs" secondAttribute="trailing" constant="314" id="wRl-vv-nfV"/>
+                            <constraint firstItem="4hh-9g-RZ4" firstAttribute="top" secondItem="APH-Jd-18g" secondAttribute="bottom" constant="22" id="yaW-36-k7L"/>
+                            <constraint firstItem="M0s-yv-Wko" firstAttribute="leading" secondItem="Cfu-YD-JWI" secondAttribute="leading" constant="45" id="ykI-7b-rFB"/>
+                            <constraint firstItem="Qr7-rf-bEY" firstAttribute="top" secondItem="xEO-ev-6SN" secondAttribute="bottom" constant="23" id="zY2-V3-94a"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vKC-Hz-QdN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4431.884057971015" y="85.714285714285708"/>
+        </scene>
         <!--BobingING View Controller-->
         <scene sceneID="ydU-Ks-2DM">
             <objects>
@@ -656,12 +870,17 @@
                                 <buttonConfiguration key="configuration" style="plain" image="RulesbtnING"/>
                                 <connections>
                                     <action selector="RuleINGbtn:" destination="Dhu-je-HBZ" eventType="touchUpInside" id="2Bc-5X-7k0"/>
+                                    <segue destination="5pc-KO-jvm" kind="modal" identifier="GRtoRules" modalPresentationStyle="fullScreen" id="aST-Jx-kX5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N8U-x8-o55" userLabel="ResultINGbtn">
                                 <rect key="frame" x="24" y="656" width="197" height="61"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="ResultbtnING"/>
+                                <connections>
+                                    <action selector="Resultlist:" destination="Dhu-je-HBZ" eventType="touchUpInside" id="yWf-Nk-7W1"/>
+                                    <segue destination="T0n-YU-WZW" kind="modal" identifier="GRtoResult" modalPresentationStyle="fullScreen" id="rIa-Ft-xZ6"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7KS-1k-uNL" userLabel="Resultanswerlbl">
                                 <rect key="frame" x="99" y="775" width="216" height="42"/>
@@ -748,7 +967,6 @@
                         <outlet property="Userimagebtn" destination="12g-0s-FoW" id="8y1-ka-HeP"/>
                         <outlet property="Usernamelbl" destination="zZO-g2-CYq" id="j4v-YT-fiM"/>
                         <outlet property="Zhuangyuanlbl" destination="mgB-5Y-yiu" id="I3S-yJ-8WC"/>
-                        <segue destination="5pc-KO-jvm" kind="modal" identifier="jointoING" modalPresentationStyle="fullScreen" id="35B-bl-TpP"/>
                         <segue destination="GMh-YC-p5A" kind="modal" identifier="INGtohome" modalPresentationStyle="fullScreen" id="6Vx-DE-qJ4"/>
                     </connections>
                 </viewController>
@@ -998,6 +1216,10 @@
                                 <rect key="frame" x="109" y="510.5" width="197" height="61"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="ResultbtnING"/>
+                                <connections>
+                                    <action selector="Resultlist:" destination="lGp-ET-svc" eventType="touchUpInside" id="mSf-Ig-wCk"/>
+                                    <segue destination="rct-Tz-EdQ" kind="modal" identifier="INtoResult" modalPresentationStyle="fullScreen" id="tCX-3l-pB4"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="ty4-jh-4zO" userLabel="Diceimages">
                                 <rect key="frame" x="49" y="153.5" width="317" height="226"/>
@@ -1127,6 +1349,164 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aVp-3L-4ET" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1557.9710144927537" y="817.63392857142856"/>
+        </scene>
+        <!--INResultListViewController-->
+        <scene sceneID="C0w-bw-dun">
+            <objects>
+                <viewController title="INResultListViewController" id="rct-Tz-EdQ" customClass="INResultListViewController" customModule="Lab4_Bobing_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0OL-Uf-eeg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Ohi-eT-eGj">
+                                <rect key="frame" x="20" y="96" width="374" height="751"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Result List page" translatesAutoresizingMaskIntoConstraints="NO" id="Ddi-to-Eus">
+                                <rect key="frame" x="0.0" y="-15" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cnP-70-BiR">
+                                <rect key="frame" x="45" y="376" width="325" height="43"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Round5 : Two Ju" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" white="1" alpha="0.59118510869999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="strokeColor" red="0.1680037975" green="0.2548166811" blue="0.46669214959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
+                                    <color key="baseForegroundColor" red="0.21335491540000001" green="0.26427221299999998" blue="0.40786260369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7S3-1I-Dcg">
+                                <rect key="frame" x="45" y="310" width="325" height="43"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Round4 : Thanks" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" white="1" alpha="0.59118510869999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="strokeColor" red="0.1680037975" green="0.2548166811" blue="0.46669214959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
+                                    <color key="baseForegroundColor" red="0.21335491540000001" green="0.26427221299999998" blue="0.40786260369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XNu-jE-PWu">
+                                <rect key="frame" x="45" y="178" width="325" height="43"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Round2 : Thanks" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" white="1" alpha="0.59118510869999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="strokeColor" red="0.1680037975" green="0.2548166811" blue="0.46669214959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
+                                    <color key="baseForegroundColor" red="0.21335491540000001" green="0.26427221299999998" blue="0.40786260369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vPO-1a-RXO">
+                                <rect key="frame" x="45" y="244" width="325" height="43"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Round3 : One Xiu" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" white="1" alpha="0.59118510869999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="strokeColor" red="0.1680037975" green="0.2548166811" blue="0.46669214959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
+                                    <color key="baseForegroundColor" red="0.21335491540000001" green="0.26427221299999998" blue="0.40786260369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5pl-kt-Hxt" userLabel="Resultanswerlbl">
+                                <rect key="frame" x="54" y="96" width="277" height="78"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="78" id="cwj-ep-0Js"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" red="0.96470588239999999" green="0.89411764709999997" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LND-8K-RYO" userLabel="Beforebtn">
+                                <rect key="frame" x="-27" y="-88" width="126" height="132"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="befor icon" title=""/>
+                                <connections>
+                                    <action selector="BeforeHome:" destination="rct-Tz-EdQ" eventType="touchUpInside" id="UOu-d1-tHi"/>
+                                    <action selector="BeforeHome:" destination="lGp-ET-svc" eventType="touchUpInside" id="V43-rw-W6U"/>
+                                    <action selector="Beforebtn:" destination="dBB-gw-ZH3" eventType="touchUpInside" id="bE9-nZ-oZP"/>
+                                    <segue destination="lGp-ET-svc" kind="modal" identifier="ResulttoIN" modalPresentationStyle="fullScreen" id="tKl-t5-5uG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OO4-2U-oFu">
+                                <rect key="frame" x="45" y="94" width="325" height="62"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Round1 : Thanks" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" white="1" alpha="0.59118510871533525" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="strokeColor" red="0.1680037975" green="0.2548166811" blue="0.46669214959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
+                                    <color key="baseForegroundColor" red="0.21335491540000001" green="0.26427221299999998" blue="0.40786260369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wW5-9h-DJO">
+                                <rect key="frame" x="45" y="442" width="325" height="43"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Round6 : One Xiu" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" white="1" alpha="0.59118510869999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="strokeColor" red="0.1680037975" green="0.2548166811" blue="0.46669214959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
+                                    <color key="baseForegroundColor" red="0.21335491540000001" green="0.26427221299999998" blue="0.40786260369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Vvz-nB-VKg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7S3-1I-Dcg" firstAttribute="top" secondItem="vPO-1a-RXO" secondAttribute="bottom" constant="23" id="1jb-rx-heq"/>
+                            <constraint firstItem="cnP-70-BiR" firstAttribute="top" secondItem="7S3-1I-Dcg" secondAttribute="bottom" constant="23" id="4qL-Ec-RNc"/>
+                            <constraint firstItem="Ohi-eT-eGj" firstAttribute="trailing" secondItem="0OL-Uf-eeg" secondAttribute="trailingMargin" id="5HR-M1-IbB"/>
+                            <constraint firstItem="Vvz-nB-VKg" firstAttribute="trailing" secondItem="LND-8K-RYO" secondAttribute="trailing" constant="315" id="66L-6u-dif"/>
+                            <constraint firstItem="vPO-1a-RXO" firstAttribute="leading" secondItem="Vvz-nB-VKg" secondAttribute="leading" constant="45" id="7Ls-mG-n14"/>
+                            <constraint firstItem="Vvz-nB-VKg" firstAttribute="bottom" secondItem="XNu-jE-PWu" secondAttribute="bottom" constant="626" id="9GU-ku-tmc"/>
+                            <constraint firstItem="Vvz-nB-VKg" firstAttribute="trailing" secondItem="cnP-70-BiR" secondAttribute="trailing" constant="44" id="9Oo-d1-tA8"/>
+                            <constraint firstItem="Vvz-nB-VKg" firstAttribute="trailing" secondItem="OO4-2U-oFu" secondAttribute="trailing" constant="44" id="9ea-gg-ZFe"/>
+                            <constraint firstItem="5pl-kt-Hxt" firstAttribute="top" secondItem="LND-8K-RYO" secondAttribute="bottom" constant="52" id="Au8-rY-O8S"/>
+                            <constraint firstItem="5pl-kt-Hxt" firstAttribute="top" secondItem="Ohi-eT-eGj" secondAttribute="top" id="GqK-Zy-GlU"/>
+                            <constraint firstItem="cnP-70-BiR" firstAttribute="leading" secondItem="Vvz-nB-VKg" secondAttribute="leading" constant="45" id="Hah-Ff-14n"/>
+                            <constraint firstItem="Vvz-nB-VKg" firstAttribute="bottom" secondItem="5pl-kt-Hxt" secondAttribute="bottom" constant="673" id="I23-Qd-89Z"/>
+                            <constraint firstItem="vPO-1a-RXO" firstAttribute="top" secondItem="XNu-jE-PWu" secondAttribute="bottom" constant="23" id="JIa-az-hX0"/>
+                            <constraint firstItem="5pl-kt-Hxt" firstAttribute="leading" secondItem="Vvz-nB-VKg" secondAttribute="leading" constant="54" id="Q0M-s1-RqK"/>
+                            <constraint firstItem="Ohi-eT-eGj" firstAttribute="bottom" secondItem="Vvz-nB-VKg" secondAttribute="bottom" id="QuC-c7-3Ao"/>
+                            <constraint firstItem="OO4-2U-oFu" firstAttribute="top" secondItem="LND-8K-RYO" secondAttribute="bottom" constant="40" id="U3D-fI-bVr"/>
+                            <constraint firstItem="Vvz-nB-VKg" firstAttribute="trailing" secondItem="wW5-9h-DJO" secondAttribute="trailing" constant="44" id="VUE-Hx-MgQ"/>
+                            <constraint firstItem="OO4-2U-oFu" firstAttribute="top" secondItem="LND-8K-RYO" secondAttribute="bottom" constant="50" id="WeU-fa-x6g"/>
+                            <constraint firstItem="Vvz-nB-VKg" firstAttribute="trailing" secondItem="XNu-jE-PWu" secondAttribute="trailing" constant="44" id="YaC-XZ-bEv"/>
+                            <constraint firstItem="Ddi-to-Eus" firstAttribute="top" secondItem="0OL-Uf-eeg" secondAttribute="topMargin" constant="-59" id="ZgR-8d-kaS"/>
+                            <constraint firstItem="7S3-1I-Dcg" firstAttribute="leading" secondItem="Vvz-nB-VKg" secondAttribute="leading" constant="45" id="aHo-dk-0RW"/>
+                            <constraint firstItem="Vvz-nB-VKg" firstAttribute="trailing" secondItem="7S3-1I-Dcg" secondAttribute="trailing" constant="44" id="cHl-RJ-p7U"/>
+                            <constraint firstItem="OO4-2U-oFu" firstAttribute="leading" secondItem="Vvz-nB-VKg" secondAttribute="leading" constant="45" id="dZZ-nJ-IHe"/>
+                            <constraint firstItem="wW5-9h-DJO" firstAttribute="leading" secondItem="Vvz-nB-VKg" secondAttribute="leading" constant="45" id="ePq-FT-lkZ"/>
+                            <constraint firstItem="Vvz-nB-VKg" firstAttribute="bottom" secondItem="vPO-1a-RXO" secondAttribute="bottom" constant="560" id="eeC-UP-xoy"/>
+                            <constraint firstItem="Vvz-nB-VKg" firstAttribute="bottom" secondItem="cnP-70-BiR" secondAttribute="bottom" constant="428" id="et1-de-2mn"/>
+                            <constraint firstItem="XNu-jE-PWu" firstAttribute="leading" secondItem="Vvz-nB-VKg" secondAttribute="leading" constant="45" id="fMS-Tg-sMx"/>
+                            <constraint firstItem="OO4-2U-oFu" firstAttribute="top" secondItem="0OL-Uf-eeg" secondAttribute="topMargin" constant="84" id="jEM-kv-gUs"/>
+                            <constraint firstItem="OO4-2U-oFu" firstAttribute="leading" secondItem="Vvz-nB-VKg" secondAttribute="leading" constant="45" id="lIh-Be-si5"/>
+                            <constraint firstItem="Vvz-nB-VKg" firstAttribute="trailing" secondItem="vPO-1a-RXO" secondAttribute="trailing" constant="44" id="lJB-YO-Q7r"/>
+                            <constraint firstItem="Ohi-eT-eGj" firstAttribute="centerX" secondItem="Ddi-to-Eus" secondAttribute="centerX" id="lUO-sx-8GP"/>
+                            <constraint firstItem="XNu-jE-PWu" firstAttribute="top" secondItem="OO4-2U-oFu" secondAttribute="bottom" constant="22" id="oY4-bp-Y1w"/>
+                            <constraint firstItem="Vvz-nB-VKg" firstAttribute="bottom" secondItem="wW5-9h-DJO" secondAttribute="bottom" constant="362" id="oee-VA-eol"/>
+                            <constraint firstItem="Ohi-eT-eGj" firstAttribute="leading" secondItem="0OL-Uf-eeg" secondAttribute="leadingMargin" id="q3W-Ym-Orc"/>
+                            <constraint firstItem="Vvz-nB-VKg" firstAttribute="bottom" secondItem="7S3-1I-Dcg" secondAttribute="bottom" constant="494" id="qM9-rf-z2l"/>
+                            <constraint firstItem="XNu-jE-PWu" firstAttribute="top" secondItem="5pl-kt-Hxt" secondAttribute="bottom" constant="4" id="sY6-El-Tjn"/>
+                            <constraint firstItem="Vvz-nB-VKg" firstAttribute="trailing" secondItem="OO4-2U-oFu" secondAttribute="trailing" constant="44" id="vf6-Fa-xZO"/>
+                            <constraint firstAttribute="bottom" secondItem="Ddi-to-Eus" secondAttribute="bottom" id="wFf-NN-Zfp"/>
+                            <constraint firstItem="Vvz-nB-VKg" firstAttribute="trailing" secondItem="5pl-kt-Hxt" secondAttribute="trailing" constant="83" id="xzK-Ly-uPX"/>
+                            <constraint firstItem="wW5-9h-DJO" firstAttribute="top" secondItem="cnP-70-BiR" secondAttribute="bottom" constant="23" id="zVT-1q-y9t"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PgM-de-VDj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1605.7971014492755" y="1522.7678571428571"/>
         </scene>
         <!--Legend View Controller-->
         <scene sceneID="Yjm-6a-xbK">
@@ -1387,6 +1767,7 @@
                                                 <buttonConfiguration key="configuration" style="plain" image="befor icon"/>
                                                 <connections>
                                                     <action selector="Beforebtn:" destination="5pc-KO-jvm" eventType="touchUpInside" id="wO8-JY-Oay"/>
+                                                    <segue destination="Dhu-je-HBZ" kind="modal" identifier="ruletohome" modalPresentationStyle="fullScreen" id="Mkz-ZQ-L3s"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -1424,13 +1805,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7ru-pA-SmA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4433" y="-587"/>
+            <point key="canvasLocation" x="4690" y="-587"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="gr2-Yb-B7c"/>
-        <segue reference="CAa-SU-PHg"/>
-        <segue reference="vC5-W4-GAi"/>
+        <segue reference="tKl-t5-5uG"/>
+        <segue reference="qeC-dC-mAE"/>
+        <segue reference="4UD-2c-2ge"/>
+        <segue reference="F65-cE-j8f"/>
         <segue reference="DRr-qM-pNs"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -1449,6 +1831,7 @@
         <image name="Other Login page" width="414" height="896"/>
         <image name="Profile page" width="414" height="896"/>
         <image name="Profile page editing" width="414" height="896"/>
+        <image name="Result List page" width="414" height="896"/>
         <image name="ResultbtnING" width="173" height="47"/>
         <image name="RownowbtnING" width="178" height="57"/>
         <image name="Rules icon" width="374" height="56"/>

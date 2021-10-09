@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "搜图114_327041_团圆月饼中秋手绘玉兔.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "搜图114_327041_团圆月饼中秋手绘玉兔@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "搜图114_327041_团圆月饼中秋手绘玉兔@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
