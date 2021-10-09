@@ -30,7 +30,7 @@ class BobingINGViewController: UIViewController {
     @IBOutlet weak var BobingINGbackground: UIImageView!
     @IBOutlet weak var Resultshowlbl: UILabel!
     @IBOutlet weak var Resultdetaillbl: UILabel!
-    @IBOutlet weak var ResultINGbtn: UIButton!
+    @IBOutlet weak var Resultbtn: UIButton!
     @IBOutlet weak var RuleINGbtn: UIButton!
     @IBOutlet weak var Rollnowbtn: UIButton!
     @IBOutlet weak var Beforebtn: UIButton!
@@ -242,13 +242,15 @@ class BobingINGViewController: UIViewController {
         self.performSegue(withIdentifier:"GRtoRules", sender: self)
     }
     
-    @IBAction func BeforeHome(_ sender: Any) {
-        self.performSegue(withIdentifier:"INGtohome", sender: self)
+    @IBAction func Resultbtn(_ sender: Any) {
+        self.performSegue(withIdentifier:"INGtoResult", sender: self)
     }
+    @IBAction func BeforetoHome(_ sender: Any) {
+        self.performSegue(withIdentifier:"INGtoHome", sender: self)
+    }
+
     
-    @IBAction func Resultlist(_ sender: Any) {
-        self.performSegue(withIdentifier:"GRtoResult", sender: self)
-    }
+   
     /*
     // MARK: - Navigation
 

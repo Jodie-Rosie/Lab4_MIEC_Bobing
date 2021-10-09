@@ -9,6 +9,7 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    @IBOutlet weak var Setting: UIButton!
     @IBOutlet weak var Startagroupbtn: UIButton!
     @IBOutlet weak var Myprofilebtn: UIButton!
     @IBOutlet weak var Individualbtn: UIButton!
@@ -37,6 +38,9 @@ class HomeViewController: UIViewController {
     }
     @IBAction func JoinaGroupbtn(_ sender: Any) {
         self.performSegue(withIdentifier:"tojoin", sender: self)
+    }
+    @IBAction func Settingbtn(_ sender: Any) {
+        self.performSegue(withIdentifier:"hometouser", sender: self)
     }
     
     /*

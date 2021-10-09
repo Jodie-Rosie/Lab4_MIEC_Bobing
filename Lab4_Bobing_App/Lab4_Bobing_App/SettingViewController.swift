@@ -20,9 +20,7 @@ class SettingViewController：: UIViewController {
     @IBOutlet weak var Wechatlbl : UILabel!
     @IBOutlet weak var userimagelbl : UIButton!
     
-    @IBAction func BeforeHome(_ sender: Any) {
-        self.performSegue(withIdentifier:"backtoView", sender: self)
-    }
+
     
     @IBAction func toprofile(_ sender: Any) {
         self.performSegue(withIdentifier:"settingtopro", sender: self)
@@ -32,4 +30,7 @@ class SettingViewController：: UIViewController {
         self.performSegue(withIdentifier:"settingtologin", sender: self)
     }
     
+    @IBAction func beforetoUser(_ sender: Any) {
+        self.performSegue(withIdentifier:"settingtoUser", sender: self)
+    }
 }

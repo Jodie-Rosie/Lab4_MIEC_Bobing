@@ -2,16 +2,22 @@
 //  GroupResultViewController.swift
 //  Lab4_Bobing_App
 //
-//  Created by Rosie on 2021/10/9.
+//  Created by Jodie Lin on 2021/10/9.
 //
 
 import UIKit
 
 class GroupResultViewController: UIViewController {
-    @IBOutlet weak var backtoGRbtn : UIButton!
+
+    @IBOutlet weak var Beforebtn1: UIButton!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+    }
     
-    @IBAction func Return(_ sender: Any) {
-        self.performSegue(withIdentifier:"ResulttoGR", sender: self)
+    @IBAction func BeforetoING(_ sender: Any) {
+        self.performSegue(withIdentifier:"ResulttoING", sender: self)
     }
     
     /*
